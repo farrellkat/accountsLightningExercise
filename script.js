@@ -92,4 +92,7 @@ function femaleAccounts(accountsArray) {
     }
     return femaleArray
 }
+
+const females = accounts.filter(account => account.gender === "female")
+
 console.log(femaleAccounts(accounts))
